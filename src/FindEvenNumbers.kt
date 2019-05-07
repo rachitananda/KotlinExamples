@@ -1,3 +1,4 @@
+import java.util.ArrayList
 
 fun main(args:Array<String>){
 
@@ -11,4 +12,10 @@ fun main(args:Array<String>){
         output = output+ " " +i
     }
     println("Output : $output")
+    var arr= arrayOf(String);
+    var a= arrayListOf<String>()
+    var a1= ArrayList<String>();
+    
+    var h= hashMapOf<Int,String>()
+    var h1= HashMap<Int,String>();
 }
