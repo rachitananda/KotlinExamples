@@ -11,4 +11,9 @@ fun main(args: Array<String>) {
     for (i in 0..n-1){
         println("pet $i : ${listOfPets[i]}")
     }
+
+    for (i in 0  until listOfPets.size){
+
+        println("pet $i : ${listOfPets[i]}")
+    }
 }
