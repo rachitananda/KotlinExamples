@@ -15,7 +15,12 @@ Kotlin project with examples on the following  topics
 - Data Class
 - Interface
 - Delegation
-- Type Check
+- Type Check 
+- Abstract Class
+- Enum
+- Sealed Class
+- Generic 
+- TODO SIngelton/static object class
 
 
 
