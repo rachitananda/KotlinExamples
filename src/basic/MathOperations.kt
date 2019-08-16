@@ -1,3 +1,5 @@
+package basic
+
 /**
  * Mathematical Operators
  * Operations rules| Priorites rules

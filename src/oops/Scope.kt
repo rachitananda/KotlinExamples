@@ -1,4 +1,4 @@
-
+package oops
  val  globalVar = "bar" // global scope variable
 
 fun main(){
@@ -13,5 +13,5 @@ fun main(){
 }
 
 fun showInfoInClass( ){
-    println("name: $globalVar")
+    println("basic.getName: $globalVar")
 }

@@ -1,3 +1,5 @@
+package basic
+
 /**
  * Variables
  * printing values
@@ -11,7 +13,7 @@ fun main(args:Array<String>){
   print("rachita")
     println(x)
     println(name)
-    println("read only pie"+pie)
+    println("read only basic.getPie"+ pie)
 
 
 }

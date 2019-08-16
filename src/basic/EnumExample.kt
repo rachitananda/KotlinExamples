@@ -1,4 +1,4 @@
-
+package basic
 enum class Direction {
     NORTH,SOUTH,EAST,WEST
 }

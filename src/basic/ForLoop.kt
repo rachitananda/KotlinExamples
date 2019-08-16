@@ -1,3 +1,5 @@
+package basic
+
 fun main(args : Array<String>){
 
     for (i in 1..5) { //i=1 i<=5 i++(Step 1 default)

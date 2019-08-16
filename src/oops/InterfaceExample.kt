@@ -1,3 +1,5 @@
+package oops
+
 //https://proandroiddev.com/kotlin-made-interface-so-much-better-bbeaa59abdd7
 
 interface CreditCard {
@@ -71,15 +73,15 @@ class  PayPal(client : CreditCard) : CreditCard by client {
 
 fun main() {
     val visa = Visa("27463768325732")
-    println("Visa Can Apply: ${visa.canApply(52)}")
-    println("Visa Type: ${visa.type()}")
-    println("Visa Score: ${visa.score()}")
-    println("Visa IsEligible: ${visa.isEligible()}")
-    println("Visa IsValidCardNO: ${visa.isValidCardNo()}")
+    println("oops.Visa Can Apply: ${visa.canApply(52)}")
+    println("oops.Visa Type: ${visa.type()}")
+    println("oops.Visa Score: ${visa.score()}")
+    println("oops.Visa IsEligible: ${visa.isEligible()}")
+    println("oops.Visa IsValidCardNO: ${visa.isValidCardNo()}")
 
     val mastercard = MasterCard("27434768325732")
-    println("MasterCard Can Apply: ${mastercard.canApply(52)}")
-    println("MasterCard Type: ${mastercard.type()}")
+    println("oops.MasterCard Can Apply: ${mastercard.canApply(52)}")
+    println("oops.MasterCard Type: ${mastercard.type()}")
     println("Mastercard Score: ${mastercard.score()}")
     println("Mastercard IsEligible: ${mastercard.isEligible()}")
     println("Mastercard IsValidCardNO: ${mastercard.isValidCardNo()}")

@@ -36,7 +36,7 @@ open class CarOptions() {
 
 fun main() {
 
-    //var car = Car() - need to add default const paramaters
+    //var car = Car() - need to collection.add default const paramaters
 
     val car1 = CarOptions("BMW",2015,10000.0)
     car1.model=2018//cannot modify val , needs to be var

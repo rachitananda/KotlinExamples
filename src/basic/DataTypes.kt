@@ -1,3 +1,5 @@
+package basic
+
 fun main(args: Array<String>) {
 
     var str = "this is kotlin"

@@ -1,7 +1,9 @@
+package oops
+
 fun main(){
 
-    println(sum(1,2))
-    println(sumLamda(1,2))
+    println(sum(1, 2))
+    println(sumLamda(1, 2))
 
     val numbers = listOf(1,2,3,4,5)
 

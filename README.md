@@ -20,7 +20,8 @@ Kotlin project with examples on the following  topics
 - Enum
 - Sealed Class
 - Generic 
-- TODO SIngelton/static object class
+- Nested Inner Class
+- Named Companion Object
 
 
 

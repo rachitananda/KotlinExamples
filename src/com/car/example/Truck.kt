@@ -52,7 +52,7 @@ class Truck : CarOptions {
 
 }
 
-//add extension method
+//collection.add extension method
 fun  Truck.getCarPriceExtension():Double{
     return this.getPrice();
 }

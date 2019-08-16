@@ -1,4 +1,4 @@
-
+package basic
 
 fun main( args: Array<String>){
   println("Enter number 1:")

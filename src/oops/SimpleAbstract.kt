@@ -1,3 +1,5 @@
+package oops
+
 abstract class BankCard(){
     fun getNumber():String
     {
@@ -22,7 +24,7 @@ class CardInfo : BankCard(){
 
 fun main(){
 
-    //val card = BankCard() cannot create an instance of abstract class
+    //val card = oops.BankCard() cannot create an instance of abstract class
     val user = CardInfo()
     println(user.getInfo())
     println(user.getType())

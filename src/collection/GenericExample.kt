@@ -1,3 +1,5 @@
+package collection
+
 import kotlin.test.assertTrue
 
 //https://www.baeldung.com/kotlin-generics

@@ -1,3 +1,5 @@
+package oops
+
 //https://medium.com/@agrawalsuneet/typecheck-is-and-cast-as-in-kotlin-a2490c567a85
 //https://medium.com/@agrawalsuneet/safe-calls-vs-null-checks-in-kotlin-f7c56623ab30
 
@@ -32,9 +34,9 @@ class Rectangle : Shape {
 // 'is' smart cast
 fun checkType(shape: Shape) {
     when (shape) {
-        is Circle -> println("Type :Circle")
-        is Square -> println("Type :Square")
-        is Rectangle -> println("Type :Rectangle")
+        is Circle -> println("Type :oops.Circle")
+        is Square -> println("Type :oops.Square")
+        is Rectangle -> println("Type :oops.Rectangle")
 
     }
 }

@@ -1,3 +1,5 @@
+package oops
+
 fun main(){
 
     showInfo(12345)
@@ -11,7 +13,7 @@ fun showInfo(id : Int){
 }
 
 fun showInfo(name : String) {
-    println("name : $name")
+    println("basic.getName : $name")
 
 }
 

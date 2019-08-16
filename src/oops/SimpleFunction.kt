@@ -1,19 +1,19 @@
-
+package oops
 
 fun main(){
 
-    println(addNumber(12.4,30.6))
-    println(addNumber(x=10.0,y=30.0))
+    println(addNumber(12.4, 30.6))
+    println(addNumber(x = 10.0, y = 30.0))
     val x= 9.8
     val y = 13.6
-    val  sum = addNumber(x,y)
+    val  sum = addNumber(x, y)
     println(sum)
     //using default values
-    println(addNumbersWithDefault(10.1 ))
+    println(addNumbersWithDefault(10.1))
     //passing value explicitly for y
-    println(addNumbersWithDefault(y=20.1 ))
-    addNamesVarargs("cat","dog")
-    addNamesVarargs(names= *arrayOf("cat","dog","parrot"))
+    println(addNumbersWithDefault(y = 20.1))
+    addNamesVarargs("cat", "dog")
+    addNamesVarargs(names = *arrayOf("cat", "dog", "parrot"))
 
 }
 
