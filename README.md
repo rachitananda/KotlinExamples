@@ -22,6 +22,8 @@ Kotlin project with examples on the following  topics
 - Generic 
 - Nested Inner Class
 - Named Companion Object
+- Singleton + lazy
+- Comparable
 
 
 
