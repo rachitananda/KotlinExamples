@@ -5,6 +5,7 @@ fun main(args: Array<String>) {
     println("===Pets==")
     println("Enter number of Pets")
     val n = readLine()!!.toInt()
+
     var listOfPets : Array<String>  = Array(n){""}// string[]
     println("Enter pet names")
     for (i in 0 until n){//<n

@@ -1,5 +1,6 @@
 package collection
 
+
 fun main(args: Array<String>) {
 
     var listOfUsers = hashMapOf<Int, String>()

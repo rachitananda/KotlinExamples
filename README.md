@@ -1,29 +1,42 @@
 # Kotlin Examples
-Kotlin project with examples on the following  topics
-- Variables
-- I/O
-- Data types
+Kotlin project with examples on the following  topics 
+- Basic 
+  - Variables
+  - I/O
+  - Data types
+  - Loops
+  - Maths Operation
+  Conditional Operators
+  - Return and Jumps
+  - Simple Examples(Odd even, find my age)
 - Collections
-- Conditional Operators
-- Math Operators
-- Loops
-- Function overloading
-- Polymorphism
-- Class 
-- Constructor
-- Extensions
-- Data Class
-- Interface
-- Delegation
-- Type Check 
-- Abstract Class
-- Enum
-- Sealed Class
-- Generic 
-- Nested Inner Class
-- Named Companion Object
-- Singleton + lazy
-- Comparable
+  - Strings
+  - Array
+  - ArrayList
+  - LinkedList
+  - Comparable
+  - Generic
+  - Hashmap
+  - Mutable and Immutable Collections
+  - Kotlin Collections
+- OOPS
+  - Function overloading
+  - Polymorphism
+  - Class 
+  - Constructor
+  - Extensions
+  - Data Class
+  - Interface
+  - Delegation
+  - Type Check 
+  - Abstract Class
+  - Enum
+  - Sealed Class
+  - Generic 
+  - Nested Inner Class
+  - Named Companion Object
+  - Singleton + lazy
+  - Comparable
 
 
 
